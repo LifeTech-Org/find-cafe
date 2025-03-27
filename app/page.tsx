@@ -13,7 +13,7 @@ export default function Home() {
 
     try {
       const response = await fetch(
-        'https://yeahblend.app.n8n.cloud/webhook-test/575a76f1-3710-4ab9-bbe9-ef626702529b',
+        'https://yeahblend.app.n8n.cloud/webhook/575a76f1-3710-4ab9-bbe9-ef626702529b',
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
